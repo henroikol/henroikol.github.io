@@ -199,5 +199,5 @@ function gameloop(){
     functions.rectangle(playeri[0],playeri[1],10,10,"red")
     
 }
-setInterval(gameloop,50);
+setInterval(gameloop,25);
 
