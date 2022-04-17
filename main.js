@@ -1,13 +1,23 @@
 
 const words = [
-"ma olen burger otse macdonalsist",
-"helenile meeldib eko",
+ "ma olen burger otse macdonalsist",
+ "helenile meeldib eko",
  "twa arbusa on my busa",
  "källo on emo",
  "robot roobert on lahe",
  "mulle maitsevad kollased maasikad",
  "juss peeretas persepolis sokratise ees",
- "su ema sittus persepolis ja mängis amongus"
+ "su ema sittus persepolis ja mängis amongus",
+ "roki is the rock",
+ "ingrid on källo version kaks",
+ "helenile meeldivad pallid",
+ "henrile meeldib pähkleid süüa",
+ "gaide on igav õpetaja",
+ "esimestel olümpia mängudel jooksid mehed alasti staadionil",
+ "joanna on sussy ja ta räägib sussitest asjadest",
+ "ly-sandral on muumi hull ja talle meeldib soome stuff",
+ "meie klass on väga sussy xd"
+
 ]
 
 const pic = document.getElementById("hangmanpic")
